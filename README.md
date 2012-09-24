@@ -10,6 +10,7 @@ mvn jetty:run
 
 This starts a jetty through Maven and deploys the example application.
 You can access the example application through: http://localhost:8080/wickettagcloud-example/
+To stop Jetty simple press Ctrl+C.
 
 The code that builds up the page with the tag cloud is in src/main/java/com/github/kristofa/wickettagcloudexample/HomePage.java
 
